@@ -1,0 +1,22 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+
+.layui-card-header {
+    /* display 属性规定元素应该生成的框的类型。 说明 这个属性用于定义建立布局时元素生成的显示框类型 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#form-add,
+#form-edit {
+    padding-top: 20px;
+    padding-right: 20px;
+}
