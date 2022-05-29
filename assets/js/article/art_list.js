@@ -45,6 +45,7 @@ $(function () {
                 }
 
                 var htmlStr = template('tpl-table', res)
+                console.log(htmlStr);
                 $('tbody').html(htmlStr)
                 renderPage(res.total)
 
